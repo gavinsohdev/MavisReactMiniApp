@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styles from "./App.module.scss";
 import clsx from "clsx";
-import { useInitData, useWebApp, useShowPopup } from "@vkruglikov/react-telegram-web-app";
+// import { useInitData, useWebApp, useShowPopup } from "@vkruglikov/react-telegram-web-app";
+import { useShowPopup } from "@vkruglikov/react-telegram-web-app";
 
 export type AppProps = {
   className?: string;
