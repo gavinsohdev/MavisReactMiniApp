@@ -2,6 +2,7 @@
   "name": "react-mini-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gavinsohdev.github.io/MavisReactMiniApp",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +12,9 @@
     "create-component": "npx generate-react-cli component",
     "create-component:ui": "npm run create-ui-component",
     "create-ui-component": "npx generate-react-cli ui-component",
-    "create-page": "npx generate-react-cli page"
+    "create-page": "npx generate-react-cli page",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@vkruglikov/react-telegram-web-app": "^2.1.4",
@@ -31,6 +34,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "generate-react-cli": "^8.3.0",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "sass": "^1.68.0",
