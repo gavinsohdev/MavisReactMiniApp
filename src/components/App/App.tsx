@@ -17,9 +17,9 @@ declare global {
 
 export const App: React.FC<AppProps> = ({ className }) => {
   const showPopup = useShowPopup();
-  const WebApp = useWebApp();
+  // const WebApp = useWebApp();
   const [initData, setInitData] = useState<string>("");
-  const [initDataUnsafe, initData2] = useInitData();
+  // const [initDataUnsafe, initData2] = useInitData();
 
   useEffect(() => {
     let tg = window.Telegram.WebApp;
